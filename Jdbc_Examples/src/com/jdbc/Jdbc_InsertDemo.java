@@ -14,9 +14,9 @@ public class Jdbc_InsertDemo {
  
 	     Statement st = con.createStatement();
 	                                              // Insert queries
-	     String insertQuery1 = "INSERT INTO students (id,name, email) VALUES (107,'Bhagyashri', 'bhagyashri@gmail.com.com')";
-	     String insertQuery2 = "INSERT INTO students (id,name, email) VALUES (108,'Shravani', 'Shravani12@gamil.com.com')";
-	     String insertQuery3 = "INSERT INTO students (id, name, email) VALUES (109,'gita', 'gita@gmail.com')";
+	     String insertQuery1 = "INSERT INTO students (id,name, email) VALUES (105,'Bhagyashri', 'bhagyashri@gmail.com.com')";
+	     String insertQuery2 = "INSERT INTO students (id,name, email) VALUES (109,'Shravani', 'Shravani12@gamil.com.com')";
+	     String insertQuery3 = "INSERT INTO students (id, name, email) VALUES (106,'gita', 'gita@gmail.com')";
 	     
 	     st.executeUpdate(insertQuery1);                           // Execute insert queries
 	     st.executeUpdate(insertQuery2);
